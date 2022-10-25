@@ -2,10 +2,9 @@
 #include <stdlib.h>
 
 int main(int argc, char *argv[]) {
-	printf("Hello World!\n");
 	double x = 0.001, y=1, temp;
-	int i = 1; 
-	printf("  x    y\n");
+	double i = 1; 
+	printf("  x        y\n");
 	printf("%lf  %lf\n", x, y);
 	for (i = 1; ; i++)
 	{
