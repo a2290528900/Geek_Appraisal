@@ -16,9 +16,8 @@ void inplace_swap(char* x, char* y);
 int main()
 {
     //对输入的字符串进行记录，对字符的总个数count以及各个字符的出现次数arr_small[]进行统计
-    char str[100];
+    char str[7]="ABBCCCC";
     printf("Please Enter the string\n");
-    scanf("%s", str);
     int arr_big[27] = { 0 };  //各个字符的出现次数
     int count = 0;  //字符的总个数
     for (int i = 0; i < strlen(str); i++)    //遍历输入字符串中的所有字符
